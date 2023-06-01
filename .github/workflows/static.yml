@@ -36,7 +36,7 @@ jobs:
       - name: Rm .github
         run: rm -rf .github
       - name: Create Indexes
-        uses: Exponential-Workload/create-index-action@0.1
+        uses: Exponential-Workload/create-index-action@0.1.0
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
